@@ -124,7 +124,7 @@ Future<void> main() async {
     );
   }
 
-  await Supabase.initialize(url: supabaseUrl, anonKey: supabaseKey);
+  await Supabase.initialize(url: supabaseUrl, publishableKey: supabaseKey);
   runApp(const BarberPlatformApp());
 }
 
