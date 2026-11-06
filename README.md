@@ -1,30 +1,32 @@
-# Berber Randevu Platformu
+# Kişisel Bakım ve Güzellik Platformu
 
-Müşteriler için kolay randevu, berberler için daha dolu takvim ve daha iyi işletme yönetimi.
+Müşteriler için kolay randevu, profesyoneller için daha dolu takvim ve güvenilir kişisel bakım alışverişi.
 
-Bu proje; müşterilerin berberleri keşfedip randevu almasını, berberlerin ise takvimlerini, müşterilerini ve gelirlerini tek yerden yönetmesini sağlayan Android ve iOS uygulamasıdır.
+Bu proje; müşterilerin berber, kadın kuaförü, güzellik salonu, makeup artist, gelin hazırlık uzmanı ve diğer kişisel bakım profesyonellerini keşfedip randevu almasını sağlayan Android ve iOS platformudur. İleride kişisel bakım ürünlerinin satışı da desteklenecektir.
 
 ## Gelir yaklaşımı
 
 İlk aşamada temel randevu alma özelliği ücretsiz tutulacaktır. Gelir modeli şu katmanlarla kurulacaktır:
 
-1. **Berber Pro üyeliği:** gelişmiş raporlar, kampanyalar, müşteri yönetimi ve çoklu çalışan özellikleri.
-2. **Öne çıkarma:** berberlerin bölgelerinde daha görünür olması için isteğe bağlı tanıtım paketi.
-3. **Ödeme komisyonu:** uygulama içi ödeme kullanıldığında açıkça gösterilen makul hizmet bedeli.
-4. **Kurumsal paket:** çok şubeli işletmeler için gelişmiş yetkilendirme ve raporlama.
+1. **Profesyonel Pro üyeliği:** gelişmiş raporlar, kampanyalar, müşteri yönetimi ve ekip özellikleri.
+2. **Hizmet komisyonu:** platform üzerinden tamamlanan randevulardan şeffaf komisyon.
+3. **Ürün satış marjı:** kişisel bakım ürünleri ve profesyonel ekipman satışından gelir.
+4. **Öne çıkarma:** işletme ve freelancerların bölgelerinde görünür olması için tanıtım paketi.
+5. **Kurumsal paket:** çok şubeli salonlar ve ekipler için gelişmiş yönetim.
 
 Temel randevu akışını ücretli duvarın arkasına koymayacağız. Böylece müşteri deneyimi korunurken berberler uygulamayı deneyebilecek.
 
 ## İlk sürüm kapsamı
 
-- Müşteri ve berber hesapları
-- Berber profili ve hizmet listesi
+- Müşteri ve profesyonel hesapları
+- İşletme/freelancer profili ve hizmet listesi
+- Kişisel bakım kategorileri ve ürün kataloğu altyapısı
 - Çalışma saatleri ve müsaitlik
 - Randevu oluşturma, değiştirme ve iptal
-- Berber yönetim ekranı
+- Salon, freelancer ve ekip yönetim ekranı
 - Randevu hatırlatmaları
 - Puanlama ve yorum
-- Basit gelir ve randevu raporu
+- Basit gelir, randevu ve hizmet performans raporu
 
 ## Teknik yön
 
@@ -39,7 +41,7 @@ Temel randevu akışını ücretli duvarın arkasına koymayacağız. Böylece m
 - [x] Ürün vizyonu ve gelir yaklaşımı
 - [ ] Kullanıcı araştırması ve fiyatlandırma doğrulaması
 - [ ] Marka adı ve görsel kimlik
-- [ ] Flutter proje kurulumu
+- [x] Flutter proje kurulumu
 - [ ] Veritabanı şeması
 - [ ] Kimlik doğrulama
 - [ ] Randevu çekirdeği

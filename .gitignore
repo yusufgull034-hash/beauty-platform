@@ -1,15 +1,25 @@
-.dart_tool/
-.flutter-plugins
-.flutter-plugins-dependencies
-.packages
-.pub-cache/
-build/
-.idea/
-.vscode/
-*.iml
+# Supabase local and secret files
 .env
 .env.*
 !.env.example
-coverage/
+supabase/.temp/
+
+# Node
 node_modules/
-dist/
+npm-debug.log*
+
+# Flutter/Dart generated files
+mobile/.dart_tool/
+mobile/build/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/.packages
+mobile/android/.gradle/
+mobile/android/local.properties
+
+# IDE and OS files
+.idea/
+.vscode/
+*.iml
+Thumbs.db
+.DS_Store
